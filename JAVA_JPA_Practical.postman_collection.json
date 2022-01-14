@@ -1,0 +1,171 @@
+{
+	"id": "1bfe2904-f441-da47-9fd4-a62cf99633a2",
+	"name": "JAVA_JPA_Practical",
+	"description": "",
+	"order": [
+		"a0c5a7db-e133-554b-e79e-b87bf30feaa1",
+		"a878adad-9a17-a987-397e-5c3c92548cf8",
+		"dcf859af-484b-0b3c-3fd2-38cd4c9a7b1c",
+		"13772039-3e10-c03a-a3cc-da5768e46755",
+		"180b225a-add7-cd6a-1a4d-f44bc0cca64f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1642163348210,
+	"owner": "13434949",
+	"public": false,
+	"requests": [
+		{
+			"id": "13772039-3e10-c03a-a3cc-da5768e46755",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "1bfe2904-f441-da47-9fd4-a62cf99633a2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/api/v1/users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642163498568,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"name\": \"Nguyen Ngoc Tien\",\n    \"age\": \"22\",\n    \"userID\": 1,\n    \"salary\": 20000\n}"
+		},
+		{
+			"id": "180b225a-add7-cd6a-1a4d-f44bc0cca64f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/users/search?page=2&limit=20",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "20",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1642163853880,
+			"name": "http://localhost:8080/api/v1/users/search",
+			"description": "",
+			"collectionId": "1bfe2904-f441-da47-9fd4-a62cf99633a2",
+			"responses": [],
+			"rawModeData": "{\n    \"name\": \"e\",\n    \"age\": \"25\",\n    \"salary\": 2000\n}"
+		},
+		{
+			"id": "a0c5a7db-e133-554b-e79e-b87bf30feaa1",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/v1/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1bfe2904-f441-da47-9fd4-a62cf99633a2",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/api/v1/users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642163372226,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a878adad-9a17-a987-397e-5c3c92548cf8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/v1/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1bfe2904-f441-da47-9fd4-a62cf99633a2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/api/v1/users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1642163420611,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"name\": \"Pham Van Hieu\",\n    \"age\": \"25\",\n    \"salary\": 2000\n}"
+		},
+		{
+			"id": "dcf859af-484b-0b3c-3fd2-38cd4c9a7b1c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/v1/users/6",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1642163584572,
+			"name": "http://localhost:8080/api/v1/users/3",
+			"description": "",
+			"collectionId": "1bfe2904-f441-da47-9fd4-a62cf99633a2",
+			"responses": []
+		}
+	]
+}
